@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    .box{
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+    }
+</style>
+<body>
+<div id="info-center" class="box">
+    <h1>{{ infocenter["info"] }}</h1>
+</div>
+<div id="uploading" class="box">
+    <form action="/uploads" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" class="form-control-file" aria-describedby="fileHelp">
+        <input type="submit" name="upload" value="Upload">
+    </form>
+</div>
+
+<div>
+    <form action=""></form>
+</div>
+</body>
+</html>
