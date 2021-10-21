@@ -1,4 +1,4 @@
-Babel==2.3.4
+Babel==2.9.1
 certifi==2017.4.17
 cf-deployment-tracker==1.0.4
 chardet==3.0.3
